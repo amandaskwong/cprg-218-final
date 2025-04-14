@@ -5,36 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shangri La Beach Resort</title>
     <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
-        <h1>Shangri La Beach Resort - Your Dream Getaway</h1>
+        <img src="./logo.png" alt="The Shangri La Beach Resort Logo" id="logo">
+        <nav>
+            <button>Rooms</button>
+            <button>Dining</button>
+            <button>Spa</button>
+            <button>Activities</button>
+            <button>Testimonials</button>
+        </nav>
+        <section id="weather">
+            <img src="" alt="" id="icon">
+            <p id="temperature"></p>
+        </section>
     </header>
 
+    <h1>Shangri La Beach Resort - Your Dream Getaway</h1>
     <h2>Escape to Paradise</h2>
     <p>Indulge in luxury and breathtaking views at Shangri La Beach Resort.</p>
 
     <h2>Experience Unforgettable Moments</h2>
-    <h3>Private Beach Access</h3>
-    <p>Step onto our pristine, white-sand beach.</p>
-    <h3>Infinity Pool</h3>
-    <p>Relax by our stunning oceanfront infinity pool.</p>
-    <h3>World-Class Spa</h3>
-    <p>Rejuvenate your mind and body at our spa.</p>
-    <h3>Exquisite Dining</h3>
-    <p>Savor culinary delights at our restaurants.</p>
+    <section id="amenities">
+        <section>
+            <img src="./imgs/white-sand-beach.jpg" alt="">
+            <h3>Private Beach Access</h3>
+            <p>Step onto our pristine, white-sand beach.</p>
+        </section>
 
-    <section>
-        <h2>Our Luxurious Accommodations</h2>
-        <h3>Ocean View Deluxe Room</h3>
-        <p>Enjoy stunning ocean views from your private balcony.</p>
-        <a href="">[View Details]</a>
-        <h3>Beachfront Suite</h3>
-        <p>Step directly onto the sand from your spacious suite.</p>
-        <a href="">[View Details]</a>
-        <h3>Garden View Family Room</h3>
-        <p>Perfect for families, with ample space and garden views.</p>
-        <a href="">[View Details]</a>
+        <section>
+            <img src="./imgs/architecture-blue-water-buildings-261102.jpg" alt="">
+            <h3>Infinity Pool</h3>
+            <p>Relax by our stunning oceanfront infinity pool.</p>
+        </section>
+
+        <section>
+            <img src="./imgs/pexels-olly-3757657.jpg" alt="">
+            <h3>World-Class Spa</h3>
+            <p>Rejuvenate your mind and body at our spa.</p>
+        </section>
+
+        <section>
+            <img src="./imgs/luigi-pozzoli-34Xicn82lY4-unsplash.jpg" alt="">
+            <h3>Exquisite Dining</h3>
+            <p>Savor culinary delights at our restaurants.</p>
+        </section>
+    </section>
+
+    <h2>Our Luxurious Accommodations</h2>
+    <section id="accommodations">
+        <section>
+            <h3>Ocean View Deluxe Room</h3>
+            <p>Enjoy stunning ocean views from your private balcony.</p>
+            <a href="">[View Details]</a>
+        </section>
+
+        <img src="" alt="">
+
+        <section>
+            <h3>Beachfront Suite</h3>
+            <p>Step directly onto the sand from your spacious suite.</p>
+            <a href="">[View Details]</a>
+        </section>
+        
+        <img src="" alt="">
+
+        <section>
+            <h3>Garden View Family Room</h3>
+            <p>Perfect for families, with ample space and garden views.</p>
+            <a href="">[View Details]</a>
+        </section>
+
+        <img src="./imgs/hotel-1191726_1920.jpg" alt="">
     </section>
 
     <section>
@@ -45,5 +90,7 @@
         <p>- John B.</p>
         <a href="">[Read More Testimonials]</a>
     </section>
+
+    <script src="./weather.js"></script>
 </body>
 </html>
