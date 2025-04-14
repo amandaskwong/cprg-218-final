@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(239, 173, 59);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#logo {
+    max-width: 300px;
+}
+
+header nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+#weather {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+h1 {
+    padding: 1em;
+    text-align: center;
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(239, 173, 59);
+}
