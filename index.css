@@ -1,0 +1,35 @@
+#amenities {
+    display: flex;
+    background-color: rgb(239, 173, 59);
+    padding: 1em;
+    justify-content: center;
+}
+
+#amenities section {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+
+#amenities section img {
+    max-width: 650px;
+    width: 100%;
+}
+
+#accommodations {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 1em;
+}
+
+#accommodations img {
+    max-width: 500px;
+    width: 100%;
+    border: 10px rgb(239, 173, 59) solid;
+}
+
+#accommodations p {
+    padding: 0;
+}
