@@ -1,0 +1,40 @@
+body {
+    padding-bottom: 0;
+}
+
+.category {
+    display: flex;
+}
+
+.category section {
+    padding: 0 1em;
+}
+
+.category section ul li {
+    padding: .5em;
+}
+
+.category section ul li p {
+    padding: .5em;
+    color: rgb(121, 121, 121);
+}
+
+#divider {
+    display: flex;
+}
+
+#divider img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#booking {
+    background-color: rgb(239, 173, 59);
+    color: white;
+    padding-bottom: 1em;
+}
+
+#booking p {
+    padding-top: 1em;
+}

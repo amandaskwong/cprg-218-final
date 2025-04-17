@@ -1,0 +1,30 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    padding: 2em;
+}
+
+section h2 {
+    padding: 0 1em;
+}
+
+section ul {
+    font-size: 20px;
+}
+
+section ul p {
+    font-size: 16px;
+    padding: .5em;
+}
+
+img {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+}
+
+.even {
+    background-color: rgb(239, 173, 59);
+    color: white;
+}

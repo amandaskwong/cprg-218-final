@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin: 1em;
+}
+
+section {
+    background-color: rgb(239, 173, 59);
+    color: white;
+    padding: 1em;
+}
+
+section footer {
+    margin-top: 1em;
+}
+
+.col-span-2 {
+    grid-column: span 2;
+}

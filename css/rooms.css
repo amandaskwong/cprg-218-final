@@ -1,0 +1,29 @@
+.odd {
+    display: flex;
+}
+
+.even {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section {
+    margin: 2em 0;
+    gap: 1em;
+    justify-content: center;
+}
+
+section h2 {
+    padding-top: 0;
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border: 10px rgb(239, 173, 59) solid;
+}
+
+section ul {
+    margin-top: 1em;
+}
