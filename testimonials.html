@@ -11,13 +11,17 @@
 <body>
     <header>
         <a href="./index.html"><img src="./logo.png" alt="The Shangri La Beach Resort Logo" id="logo"></a>
-        <nav>
-            <button><a href="./rooms.html">Rooms</a></button>
-            <button><a href="./dining.html">Dining</a></button>
-            <button><a href="./spa.html">Spa</a></button>
-            <button><a href="./activities.html">Activities</a></button>
-            <button><a href="./testimonials.html">Testimonials</a></button>
+        <button id="toggle">&#9776;</button>
+        <nav id="menu">
+            <ul>
+                <li><a href="./rooms.html">Rooms</a></li>
+                <li><a href="./dining.html">Dining</a></li>
+                <li><a href="./spa.html">Spa</a></li>
+                <li><a href="./activities.html">Activities</a></li>
+                <li><a href="./testimonials.html">Testimonials</a></li>            
+            </ul>
         </nav>
+        
         <section id="weather">
             <img src="" alt="" id="icon">
             <p id="temperature"></p>
@@ -56,6 +60,7 @@
 
     <p>We are always striving to provide exceptional experiences for our guests. If you have enjoyed your stay at Shangri La Beach Resort, we would love to hear from you!</blockquote>
 
+    <script src="./menu.js"></script>
     <script src="./weather.js"></script>
 </body>
 </html>
