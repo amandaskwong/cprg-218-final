@@ -92,3 +92,23 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30pt;
+    }
+    
+    #amenities {
+        display: block;
+    }
+
+    #accommodations {
+        display: block;
+    }
+
+    #testimonials {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}

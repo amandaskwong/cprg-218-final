@@ -7,28 +7,37 @@
     flex-direction: row-reverse;
 }
 
-section {
+main section {
     margin: 2em 0;
     gap: 1em;
     justify-content: center;
 }
 
-section h2 {
+main section h2 {
     padding-top: 0;
 }
 
-section img {
+main section img {
     width: 100%;
     max-width: 400px;
     object-fit: cover;
     border: 10px rgb(239, 173, 59) solid;
 }
 
-section ul {
+main section ul {
     margin-top: 1em;
 }
 
 @media screen and (max-width: 1070px) {
+    section img {
+        width: 100%;
+        max-height: auto;
+        object-fit: cover;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .odd {
         display: flex;
         flex-direction: column-reverse;
@@ -41,8 +50,6 @@ section ul {
 
     section img {
         width: 100%;
-        max-height: auto;
-        object-fit: cover;
-        max-width: none;
+        margin: auto;
     }
 }

@@ -79,7 +79,8 @@ button {
     color: white;
     border: none;
     padding: 0.5em;
-    margin: .5em;
+    display: block;
+    margin: 1em auto;
 }
 
 footer {
