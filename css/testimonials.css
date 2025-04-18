@@ -13,6 +13,7 @@ main section {
 
 section footer {
     margin-top: 1em;
+    position: relative;
 }
 
 .col-span-2 {
