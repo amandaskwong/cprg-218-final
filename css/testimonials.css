@@ -18,3 +18,10 @@ section footer {
 .col-span-2 {
     grid-column: span 2;
 }
+
+@media screen and (max-width: 1070px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}

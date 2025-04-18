@@ -27,3 +27,22 @@ section img {
 section ul {
     margin-top: 1em;
 }
+
+@media screen and (max-width: 1070px) {
+    .odd {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .even {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section img {
+        width: 100%;
+        max-height: auto;
+        object-fit: cover;
+        max-width: none;
+    }
+}

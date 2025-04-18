@@ -38,3 +38,13 @@ body {
 #booking p {
     padding-top: 1em;
 }
+
+@media screen and (max-width: 1070px) {
+    .category {
+        display: block;
+    }
+
+    .category h3 {
+        padding: 1em 0 0 0;
+    }
+}

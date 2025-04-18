@@ -8,6 +8,10 @@
     text-shadow: 2px 2px black ;
 }
 
+#hero img {
+    display: none;
+}
+
 #amenities {
     display: flex;
     background-color: rgb(239, 173, 59);
@@ -26,7 +30,6 @@
 }
 
 #amenities section img {
-    max-width: 650px;
     width: 100%;
 }
 
@@ -40,7 +43,6 @@
 }
 
 #accommodations img {
-    max-width: 500px;
     width: 100%;
     border: 10px rgb(239, 173, 59) solid;
 }
@@ -60,4 +62,31 @@
     background-color: rgb(239, 173, 59);
     color: white;
     padding: 1em;
+}
+
+@media screen and (max-width: 1070px) {
+    #hero img {
+        display: block;
+        max-width: 100%;
+    }
+
+    #hero {
+        background-image: none;
+        background-color: white;
+        color: black;
+        text-shadow: none;
+    }
+
+    #amenities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #amenities h2 {
+        grid-column: span 2;
+    }
+
+    h2 {
+        text-align: center;
+    }
 }
