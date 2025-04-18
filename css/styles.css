@@ -17,7 +17,6 @@ header {
     width: 150%;
     min-width: 100px;
     max-width: 300px;
-    object-fit: fill;
 }
 
 header nav ul {
@@ -74,7 +73,7 @@ a:hover {
     cursor: pointer;
 }
 
-button {
+main button {
     background-color: rgb(239, 173, 59);
     color: white;
     border: none;
@@ -91,6 +90,7 @@ footer {
     align-items: center;
     height: 50px;
     position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
